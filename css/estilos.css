@@ -1,0 +1,1236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';font-size: 22px; 
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+
+    background: #ffffff; 
+    font-family: 'Montserrat';font-size: 22px; 
+}
+    .pie2{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(239, 79, 133);
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat';font-size: 22px;
+}
+    .pie{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(239, 79, 133);
+        text-align: right;
+        font-family: 'Montserrat';font-size: 22px;
+        /*float: right;*/
+    }
+    .pie img{
+        width: 20%;
+        height: 20%;
+        
+    }
+    .pie p{
+        text-align: left;
+        color: #fff;
+        margin-left: 25px;
+    }
+    
+ 
+    
+    /* .pieTxt{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .pieImg{
+        width: 50%;
+        height: 100%;
+        float: right;
+    } */
+    .pieImg img{
+        width: 1;
+    }
+
+    /* Caja es el contenedor del index, donde metemos nuestras img */
+    #Caja{
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat';font-size: 23px;
+    }
+
+    /* ----------------------- Id y Diseño del bonton ------------------------------- */
+    #contenedor2{
+        /*height: 100%;*/
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+
+    #contenedor2 a{
+        display: block;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        text-align: center;
+        margin: 5px 10px;
+        padding: 10px 20px;
+    }
+
+    /* ----------------------- Disño de las imagenes  ------------------------------- */
+    #galeria{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #galeria2{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    /*#galeria ul{
+        display: flex;
+        width: 300%;
+        animation: cambio 27s infinite alternate linear;
+        animation-timing-function: ease-in;
+    }
+
+    
+
+    #galeria img{
+        width: 1350px;
+        height: 600px;
+    }*/
+
+
+    /* ----------------------- Transicion de las imagenes ------------------------------- */
+    /*@keyframes cambio{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+    
+    @keyframes cambio2{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }*/
+
+    /* ---------------------  Diseño del boton ----------------------------------- */
+    .boto a {
+        text-align: center;
+        
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: black;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+        border-radius: 5px;
+        
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    /* ----------------------- Estilos del formulario ------------------------------- */
+
+#contenedor {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 79, 133);
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+
+
+
+/* ----------------------- Estilos del boton de registrar ------------------------------- */
+#contenedor3 {
+    background-color:rgb(228, 226, 226); ;
+}
+#contenedor3 button{
+    display: block;
+    width: 50%;
+    border: none;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    color: rgb(228, 226, 226);;
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+
+
+/* ----------------------- Estilos de Descargas descargas.html ------------------------------------------------------------- */
+
+    /* ----------------------- Diseño de Texto de descargas ------------------------------- */
+    #Cont1 {
+        width: 100%;
+        height: 100%;
+        background: rgb(228, 226, 226);
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Cont1 h1{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+
+    #Cont1 p{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+
+
+    /* ----------------------- Diseño de imagenes de descargas ------------------------------- */
+    .caja {
+        text-align: center;
+        /*margin-right: 15px;
+        margin: 15px;*/
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Contenido2 {
+        width: 100%;
+        height: 85%;
+        float: initial;
+        /*margin: 15px;*/
+        /*padding: 20px;*/
+    }
+
+    .des a{
+        text-align: center;
+        background-color: rgb(107, 104, 105);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0px 5px 0px rgb(239, 79, 133);
+    }
+
+    /* ----------------------- Diseño de imagenes ------------------------------- */
+    .des a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .des a:active {
+        box-shadow: none;
+    }
+
+
+    .img4 {
+        width: 380px;
+        height: 200px;
+    }
+
+    /* ----------------------- Diseño de contenedores de imagene de descargas ------------------------------- */
+    #Contenido4 {
+        width: 100%;
+        height: 85%;
+        float: initial;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+    #Contenido5 {
+
+        width: 100%;
+        height: 85%;
+        float: initial;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+
+    /* ----------------------- Diseño de boton de descargas ------------------------------- */
+
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+        
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto a:active {
+        box-shadow: none;
+    }
+
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto button:active {
+        box-shadow: none;
+    }
+
+    p {
+        font-family: 'Montserrat';font-size: 22px;
+    }
+
+    b{
+        font-family: 'Montserrat';font-size: 22px;
+    }
+/*Resolucion para dispositivos moviles muy pequeños */
+    @media(max-width: 575px){
+         /* ----------------------- Id y Diseño del bonton ------------------------------- */
+    #contenedor2{
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+
+    #contenedor2 a{
+        display: block;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        text-align: center;
+        margin: 5px 10px;
+        padding: 10px 20px;
+    }
+
+    /* ----------------------- Disño de las imagenes  ------------------------------- */
+    #galeria{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    /*#galeria2{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #galeria ul{
+        display: flex;
+        width: 300%;
+        animation: cambio 27s infinite alternate linear;
+        animation-timing-function: ease-in;
+    }
+
+    #galeria li {
+        width: 100%;
+        list-style: none;
+    }*/
+
+    /*#galeria img{
+        width: 100%;
+        height: 100%;
+    }*/
+
+    
+    /* ---------------------  Diseño del boton ----------------------------------- */
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    #contenedor {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(239, 79, 133);
+        margin: 0px;
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    /* ----------------------- Diseño de imagenes de descargas ------------------------------- */
+   .caja {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    margin: 15px;
+    font-family: 'Montserrat';font-size: 22px;
+    }
+    #Contenido2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    /*margin: 15px;
+    padding: 20px;*/
+    text-align: center;
+    }
+
+    .des a{
+        text-align: center;
+        background-color: rgb(107, 104, 105);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0px 5px 0px rgb(239, 79, 133);
+        }
+
+        /* ----------------------- Diseño de imagenes ------------------------------- */
+        .des a:hover {
+            box-shadow: 0px 2px 0px rgb(219, 150, 150);
+        }
+
+    .des a:active {
+        box-shadow: none;
+    }
+
+
+    .img4 {
+        width: 380px;
+        height: 200px;
+    }
+
+    /* ----------------------- Diseño de contenedores de imagene de descargas ------------------------------- */
+    #Contenido4 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+    #Contenido5 {
+
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+    /* ----------------------- Diseño de boton de descargas ------------------------------- */
+    
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';
+        font-size: 3.5vw;
+        /*font-size: 25px;*/
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    
+    p {
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    
+    b{
+        font-family: 'Montserrat';font-size: 22px;
+    }
+}
+    
+/*Moviles pequeños*/
+    @media(min-width:576px) and (max-width: 767px){
+         /* ----------------------- Id y Diseño del bonton ------------------------------- */
+    #contenedor2{
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+
+    #contenedor2 a{
+        display: block;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        text-align: center;
+        margin: 5px 10px;
+        padding: 10px 20px;
+    }
+
+    /* ----------------------- Disño de las imagenes  ------------------------------- */
+    #galeria{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    /*#galeria2{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #galeria ul{
+        display: flex;
+        width: 300%;
+        animation: cambio 27s infinite alternate linear;
+        animation-timing-function: ease-in;
+    }
+
+    #galeria li {
+        width: 100%;
+        list-style: none;
+    }*/
+   /* #galeria img{
+        width: 100%;
+        height: 100%;
+    }*/
+
+    
+    /* ---------------------  Diseño del boton ----------------------------------- */
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 10px 15px;
+        display: inline-block;
+        color: #fff;
+        padding: 10px 15px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    #contenedor {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(239, 79, 133);
+        margin: 0px;
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    /* ----------------------- Diseño de imagenes de descargas ------------------------------- */
+   .caja {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    margin: 15px;
+    font-family: 'Montserrat';font-size: 22px;
+    }
+    #Contenido2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    /*margin: 15px;
+    padding: 20px;*/
+    text-align: center;
+    }
+
+    .des a{
+        text-align: center;
+        background-color: rgb(107, 104, 105);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0px 5px 0px rgb(239, 79, 133);
+        }
+
+        /* ----------------------- Diseño de imagenes ------------------------------- */
+        .des a:hover {
+            box-shadow: 0px 2px 0px rgb(219, 150, 150);
+        }
+
+    .des a:active {
+        box-shadow: none;
+    }
+
+
+    .img4 {
+        width: 380px;
+        height: 200px;
+    }
+
+    /* ----------------------- Diseño de contenedores de imagene de descargas ------------------------------- */
+    #Contenido4 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+    #Contenido5 {
+
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+
+    /* ----------------------- Diseño de boton de descargas ------------------------------- */
+
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto a:active {
+        box-shadow: none;
+    }
+
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto button:active {
+        box-shadow: none;
+    }
+
+    p {
+        font-family: 'Montserrat';font-size: 22px;
+    }
+
+    b{
+        font-family: 'Montserrat';font-size: 22px;
+    }
+        
+}
+    
+/* Tablets*/
+    @media(min-width: 768px) and (max-width:991px){
+         /* ----------------------- Id y Diseño del bonton ------------------------------- */
+    #contenedor2{
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+
+    #contenedor2 a{
+        display: block;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        text-align: center;
+        margin: 5px 10px;
+        padding: 10px 20px;
+    }
+
+    /* ----------------------- Disño de las imagenes  ------------------------------- */
+    #galeria{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #galeria ul{
+        display: flex;
+        width: 300%;
+        animation: cambio 27s infinite alternate linear;
+        animation-timing-function: ease-in;
+    }
+
+    #galeria li {
+        width: 100%;
+        list-style: none;
+    }
+
+    #galeria img{
+        width: 100%;
+        height: 100%;
+    }
+    @keyframes cambio{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+    
+    @keyframes cambio2{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+
+    
+    /* ---------------------  Diseño del boton ----------------------------------- */
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';
+        font-size: 100%; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    #contenedor {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(239, 79, 133);
+        margin: 0px;
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Cont1 {
+        width: 100%;
+        height: 100%;
+        background: rgb(228, 226, 226);
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Cont1 h1{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    
+    #Cont1 p{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+   /* ----------------------- Diseño de imagenes de descargas ------------------------------- */
+   .caja {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    
+    margin: 15px;
+    font-family: 'Montserrat';font-size: 22px;
+    }
+    #Contenido2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    /*margin: 15px;
+    padding: 20px;*/
+    text-align: center;
+    }
+
+    .des a{
+        text-align: center;
+        background-color: rgb(107, 104, 105);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0px 5px 0px rgb(239, 79, 133);
+        }
+
+        /* ----------------------- Diseño de imagenes ------------------------------- */
+        .des a:hover {
+            box-shadow: 0px 2px 0px rgb(219, 150, 150);
+        }
+
+    .des a:active {
+        box-shadow: none;
+    }
+
+
+    .img4 {
+        width: 380px;
+        height: 200px;
+    }
+
+    /* ----------------------- Diseño de contenedores de imagene de descargas ------------------------------- */
+    #Contenido4 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+    #Contenido5 {
+
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+
+
+    /* ----------------------- Diseño de boton de descargas ------------------------------- */
+
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto a:active {
+        box-shadow: none;
+    }
+
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+
+    .boto button:active {
+        box-shadow: none;
+    }
+
+    p {
+        font-family: 'Montserrat';font-size: 22px;
+    }
+
+    b{
+        font-family: 'Montserrat';font-size: 22px;
+    }
+        
+    }
+/*PC escritorio*/
+    @media(min-width: 992px){
+         /* ----------------------- Id y Diseño del bonton ------------------------------- */
+    #contenedor2{
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+
+    #contenedor2 a{
+        display: block;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        text-align: center;
+        margin: 5px 10px;
+        padding: 10px 20px;
+    }
+
+    /* ----------------------- Disño de las imagenes  ------------------------------- */
+    #galeria{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #galeria ul{
+        display: flex;
+        width: 300%;
+        animation: cambio 27s infinite alternate linear;
+        animation-timing-function: ease-in;
+    }
+
+    #galeria li {
+        width: 100%;
+        list-style: none;
+    }
+
+    #galeria img{
+        width: 100%;
+        height: 100%;
+    }
+    @keyframes cambio{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+    
+    @keyframes cambio2{
+        0%{margin-left: 0;}
+        25%{margin-left: 0;}
+    
+        50%{margin-left: -100%;}
+        75%{margin-left: -100%;}
+    
+        90%{margin-left: -200%;}
+        100%{margin-left: -200%;}
+    }
+
+    
+    /* ---------------------  Diseño del boton ----------------------------------- */
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    #contenedor {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(239, 79, 133);
+        margin: 0px;
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Cont1 {
+        width: 100%;
+        height: 100%;
+        background: rgb(228, 226, 226);
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Cont1 h1{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    
+    #Cont1 p{
+        text-align: center;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    
+    
+    /* ----------------------- Diseño de imagenes de descargas ------------------------------- */
+    .caja {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        /*margin-right: 15px;
+        margin: 15px;*/
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    #Contenido2 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+        text-align: center;
+    }
+    
+    .des a{
+        text-align: center;
+        background-color: rgb(107, 104, 105);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0px 5px 0px rgb(239, 79, 133);
+    }
+    
+    /* ----------------------- Diseño de imagenes ------------------------------- */
+    .des a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .des a:active {
+        box-shadow: none;
+    }
+    
+    
+    .img4 {
+        width: 380px;
+        height: 200px;
+    }
+    
+    /* ----------------------- Diseño de contenedores de imagene de descargas ------------------------------- */
+    #Contenido4 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+    
+    #Contenido5 {
+    
+        width: 100%;
+        height: 100%;
+        float: left;
+        /*margin: 15px;
+        padding: 20px;*/
+    }
+    
+    
+    /* ----------------------- Diseño de boton de descargas ------------------------------- */
+    
+    .boto a {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto a:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto a:active {
+        box-shadow: none;
+    }
+    
+    .boto button {
+        text-align: center;
+        background-color: rgb(239, 79, 133);
+        font-family: 'Montserrat';font-size: 25px; 
+        text-decoration: none;
+        margin: 15px 20px;
+        display: inline-block;
+        color: #fff;
+        padding: 15px 20px;
+        box-shadow: 0px 5px 0px rgb(255, 1, 82);
+    }
+    .boto button:hover {
+        box-shadow: 0px 2px 0px rgb(219, 150, 150);
+    }
+    
+    .boto button:active {
+        box-shadow: none;
+    }
+    
+    p {
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    
+    b{
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    }

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/bice.png" />
+    <title>Formulario</title>
+    <script type="text/javascript" src="js/colonias.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/boton.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- GOOGLE FONTs -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <div id="contenedor">
+        <div class="content">
+            <div class="pie">
+                
+                <img src="img/GOBIERNO Y GUADALAJARA LA CIUDAD.png" alt="" width="20%" height="20%">
+                <img src="img/Movilidad logo (1).png" alt="" width="15%" height="15%" >
+                <p><b> EDITAR REGISTRO </b></p>
+            </div>
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                
+                    
+                        <h1> <font color="#EF4F85" ><b>¡Que bueno que ingresas de nuevo al registro!</b></font></h1>
+                    <p>
+                        Para editar tus datos, será necesario que vuelvas a llenar los campos existentes en el formulario. 
+                            <br>
+                            Unicamente estamos dejando fuera, tu nombre completo y tu fecha de nacimiento. </font></label>
+                            <hr width=100% align="right"  size=5>
+                    </p>
+                    <form method="post" autocomplete="off" id="f2" name="f2">
+                        
+                       
+
+       
+                        <br>
+                        </form>
+                        <form method="post" autocomplete="off" id="f1" name="f1">
+                            <p>
+                                <label><font color="#424242">ID</font></label>
+                                <input type="text" name="id" id="id" required>
+                            </p>
+                        <p>
+                            
+                            <label><font color="#424242">Correo electrónico</font></label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+                        
+                        <p>
+                            <label form="Sex" class="control-label"><font color="#424242">Género</font></label>
+                            <select class="form-select" id="genero" name="genero" required>
+                                <option value="">Seleccione una.....</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                                <option value="Trans">Trans</option>
+                                <option value="Queer">Queer</option>
+                                <option value="No-binario">No-binario</option>
+                                <option value="Agénero">Agénero</option>
+                                <option value="Cisgénero hombre">Cisgénero hombre</option>
+                                <option value="Cisgénero mujer">Cisgénero mujer</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label form="Bicycle" class="control-label"><font color="#424242">¿La bicicleta es tu principal medio de
+                                trasporte?</font></label>
+                                
+                            <select class="form-select" id="principal_transporte" name="principal_transporte" required>
+                                <option value="">Seleccione una.....</option>
+                                <option value="Sí">Sí</option>
+                                <option value="No">No</option>
+                            </select>
+                        </p>
+                        <p>
+                            
+                            <label><font color="#424242">Días que la utilizas a la semana</font></label>
+                            <select class="form-select" id="dias" name="dias" required>
+                                <option value="">Seleccione una.....</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                            </select>
+                        </p>
+                        <p>
+                           
+                            <label> <font color="#424242">Tipo de bicicleta</font></label>
+                            <select class="form-select" id="tipo_bicicleta" name= "tipo_bicicleta">
+                                <option value="">Seleccione una.....</option>
+                                <option value="Montaña">Montaña</option>
+                                <option value="Urbana">Urbana</option>
+                                <option value="Hibrida">Hibrida</option>
+                                <option value="MiBici">MiBici</option>
+                                <option value="Bicicleta de carga">Bicicleta de carga</option>
+                                <option value="Triciclo">Triciclo</option>
+                                <option value="Asistida">Asistida</option>
+                                <option value="Eléctrica">Eléctrica</option>
+                                <option value="De Gasolina">De Gasolina</option>
+                                <option value="Otra">Otra</option>
+                            </select>
+                        </p>
+                        <p>
+                           
+                            <label> <font color="#424242">Con que tipo de ciclista te identificas</font></label>
+                            <select class="form-select" id="tipo_ciclista" name="tipo_ciclista">
+                                <option value="">Seleccione una.....</option>
+                                <option value="Ciclista cotidiano">Ciclista cotidiano</option>
+                                <option value="Tarea de cuidado">Tarea de cuidado</option>
+                                 <option value="Bici-Mensajero">Bici-Mensajero</option>
+                                <option value="Bici-Repartidor">Bici-Repartidor</option>
+                                <option value="Ultima milla">Ultima milla</option>
+                                <option value="Repartidor de comida">Repartidor de comida</option>
+                                <option value="O">Otra</option>
+                            </select>
+                        </p>
+                        <p>
+                           
+                            <label> <font color="#424242">Tiempo de trayecto</font></label>
+                            <select class="form-select" id="tiempo" name="tiempo">
+                                <option value="">Seleccione una.....</option>
+                                <option value="Menos de 10 min">Menos de 10 min</option>
+                                <option value="De 11 a 19 min">De 11 a 19 min</option>
+                                <option value="De 20 a 29 min">De 20 a 29 min</option>
+                                <option value="De 30 a 60 min">De 30 a 60 min</option>
+                                <option value="De 1 a 2 hrs">De 1 a 2 hrs</option>
+                                <option value="Mas de 2 hrs.">Más de 2 hrs.</option>
+                            </select>
+                        </p>
+
+                         <div class="form-group">
+                        <p>
+                            <label> <font color="#424242">Municipio donde vives</font></label>
+                            <select class="form-select" aria-label=".form-select example"
+                                id="estados" name="municipio_inicio" onchange="cambia_estado()" >
+                                <option value="0">Seleccione...</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Zapopan">Zapopan</option>
+                                <option value="Tlaquepaque">Tlaquepaque</option>
+                                <option value="Tlajomulco">Tlajomulco</option>
+                                <option value="Tonala">Tonalá</option>
+                                <option value="Elsalto">El salto</option>
+                                <option value="Ixtlahuacan">Ixtlahuacan</option>
+                                <option value="Juanacatlan">Juanacatlán</option>
+                                <option value="Zapotlanejo">Zapotlanejo</option>
+                                <option value="Acatlan">Acatlán</option>
+                            </select>
+                        </p>
+                    </div>
+                    
+                        <p>
+                            <label> <font color="#424242">Colonia donde inicia trayecto</font></label>
+                            <select id="minucipios" name="colonia_inicio"class="form-select 
+                                aria-label=".form-select example">
+                                <option value="0"> </option>
+                            </select>
+                        </p>
+                        
+                        <p >
+                            
+                            <label><font color="#424242"><br> Municipio donde finaliza su trayecto</font></label>
+                            <select class="form-select" aria-label=".form-select example"
+                                id="estados2" name="municipio_destino" onchange="cambia_estado2()">
+                                <option value="0">Seleccione</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Zapopan">Zapopan</option>
+                                <option value="Tlaquepaque">Tlaquepaque</option>
+                                <option value="Tlajomulco">Tlajomulco</option>
+                                <option value="Tonala">Tonalá</option>
+                                <option value="Elsalto">El salto</option>
+                                <option value="Ixtlahuacan">Ixtlahuacan</option>
+                                <option value="Juanacatlan">Juanacatlán</option>
+                                <option value="Zapotlanejo">Zapotlanejo</option>
+                                <option value="Acatlan">Acatlán</option>
+                            </select>
+                        </p>
+                        <p>
+                        <br>
+                        
+                            <label> <font color="#424242">Colonia destino de su trayecto</font></label>
+                            <select id="minucipios2" name="colonia_destino" class="form-select " aria-label=".form-select "></select>
+                            <option value="0"> </option>
+                            </select>
+                            
+                        </p>
+                        
+                       <div>
+                           <p>
+                            <label> <font color="#424242">Pertenece a algún colectivo ciclista</font></label>
+                            <select class="form-select" name="pertenece_colectivo" id="pertenece_colectivo">
+                                <option value="0">Seleccione una.....</option>
+                                <option value="Sí">Sí</option>
+                                <option value="No">No</option>
+                            </select>
+                        </p>
+                        </div>
+                    
+
+                        <div class="form-group">
+                            
+                            <p>
+                                <label for="exampleFormControlTextarea1"><font color="#424242">¿A qué colectivo ciclista perteneces?</font></label>
+                                <input type="text" id="exampleFormControlTextarea1" rows="2" name="colectivo_ciclista"></input>
+                            </p>
+                        </div>
+                            
+                            <div class="form-group ">
+                                <p>
+                                    <label for="exampleFormControlTextarea1"><font color="#424242">¿Tienes algún comentario para nosotros?</font></label>
+                                    <input type="text" id="exampleFormControlTextarea2" rows="2" name="comentario"></input>
+                                </p>
+                            </div>
+
+                        
+                          
+                        </div>
+                        </form>
+                    <div id="contenedor3">
+                        <div class="boto">
+                            <center>
+                                <button id="btnEnviar" type="submit" name="submit" value="Send message"  class="btn btn-lg btn-block" onclick="update_value()">Editar</button>
+                            </center>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="pie2">
+        <div>
+            <img src="img/Bicicleta .png" alt="" width="5%" height="5%">
+        </div>
+        <div>
+
+    </div>
+</footer>
+</html>
